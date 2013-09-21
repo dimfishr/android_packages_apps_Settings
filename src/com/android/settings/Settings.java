@@ -449,6 +449,7 @@ public class Settings extends PreferenceActivity
         UserDictionaryList.class.getName(),
         UserDictionarySettings.class.getName(),
         SoundSettings.class.getName(),
+        com.android.settings.chameleonos.ActiveDisplaySettings.class.getName(),
         DisplaySettings.class.getName(),
         DeviceInfoSettings.class.getName(),
         ManageApplications.class.getName(),
@@ -1357,6 +1358,7 @@ public class Settings extends PreferenceActivity
     public static class LocalePickerActivity extends Settings { /* empty */ }
     public static class UserDictionarySettingsActivity extends Settings { /* empty */ }
     public static class SoundSettingsActivity extends Settings { /* empty */ }
+    public static class ActiveDisplaySettingsActivity extends Settings { /* empty */ }
     public static class DisplaySettingsActivity extends Settings { /* empty */ }
     public static class DeviceInfoSettingsActivity extends Settings { /* empty */ }
     public static class ApplicationSettingsActivity extends Settings { /* empty */ }
