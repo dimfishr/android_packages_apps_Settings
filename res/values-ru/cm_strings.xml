@@ -62,6 +62,18 @@
     <string name="ok">OK</string>
     <string name="reset">Сброс</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Сетевой трафик</string>
+    <string name="show_network_traffic_state">Показывать сетевой трафик</string>
+    <string name="show_network_traffic_unit">Единица измерения</string>
+    <string name="show_network_traffic_frequency">Интервал обновления</string>
+    <string name="show_network_traffic_disable">Не показывать</string>
+    <string name="show_network_traffic_up">Исходящий</string>
+    <string name="show_network_traffic_down">Входящий</string>
+    <string name="show_network_traffic_all">Исходящий и Входящий</string>
+    <string name="show_network_traffic_bit">Биты в секунду</string>
+    <string name="show_network_traffic_byte">Байты в секунду</string>
+
     <string name="cyanogenmod_waiver_title">Отказ от ответственности</string>
     <string name="cyanogenmod_waiver_body">Изменение этих настроек может противоречить законам вашего государства.\n\nНажимая «OK», вы соглашаетесь с этим предупреждением и освобождаете CyanogenMod и всех его разработчиков от любых юридических обязательств.</string>
     <string name="ok">OK</string>
