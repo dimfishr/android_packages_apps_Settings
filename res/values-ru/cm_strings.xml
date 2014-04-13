@@ -81,6 +81,17 @@
     <string name="battery_info_status_charging_dock_usb">(док-станция, по USB)</string>
     <string name="intent_sender_data_label"><xliff:g id="data">Данные:</xliff:g></string>
 
+    <!-- Navigation bar -->
+    <string name="navbar_style_dimen_title">Размеры панели навигации</string>
+    <string name="navbar_dimensions_reset_message">Сбросить все стили и размеры на значения по умолчанию?</string>
+    <string name="navigation_bar_height_title">Высота панели навигации</string>
+    <string name="navigation_bar_height_summary">Высота панели навигации в портретном режиме.</string>
+    <string name="navigation_bar_width_title">Ширина панели навигации</string>
+    <string name="navigation_bar_width_summary">Или высота, если панель находится сбоку.</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (по умолчанию)</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (по умолчанию)</string>
+    <string name="navigation_bar_size_0_dp">0 dp (выкл)</string>
+
   <string name="wifi_setting_countrycode_title">Код региона Wi-Fi</string>
   <string name="wifi_setting_countrycode_summary">Укажите код региона Wi-Fi</string>
   <string name="wifi_setting_countrycode_error">При настройке кода региона Wi-Fi возникла неполадка.</string>
