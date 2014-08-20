@@ -94,6 +94,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+            android:key="recents_panel"
+            android:title="@string/recents_panel_category" >
+
+        <ListPreference
+            android:key="recent_clear_all_button"
+            android:dialogTitle="@string/recent_clear_all_button_title"
+            android:title="@string/recent_clear_all_button_title"
+            android:entries="@array/recent_clear_all_button_entries"
+            android:entryValues="@array/recent_clear_all_button_values"
+            android:persistent="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="home_key"
         android:title="@string/hardware_keys_home_key_title" >
 

@@ -71,6 +71,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String DISABLE_NAV_KEYS = "disable_nav_keys";
     private static final String KEY_POWER_END_CALL = "power_end_call";
     private static final String KEY_HOME_ANSWER_CALL = "home_answer_call";
+    private static final String KEY_CLEAR_RECENTS_BUTTON = "recent_clear_all_button";
 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -121,6 +122,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private CheckBoxPreference mPowerEndCall;
     private CheckBoxPreference mHomeAnswerCall;
     private CheckBoxPreference mNavigationBarLeftPref;
+    private ListPreference mRecentClearAllButton;
     private ListPreference mNavigationRecentsLongPressAction;
 
     private PreferenceCategory mNavigationPreferencesCat;
@@ -330,6 +332,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             prefScreen.removePreference(volumeCategory);
         }
 
+        mRecentClearAllButton = initActionList(KEY_CLEAR_RECENTS_BUTTON, 
+            Settings.System.getInt(resolver, Settings.System.CLEAR_RECENTS_BUTTON, 2));
+
         try {
             // Only show the navigation bar category on devices that has a navigation bar
             // unless we are forcing it via development settings
@@ -500,6 +505,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         } else if (preference == mVolumeKeyCursorControl) {
             handleActionListChange(mVolumeKeyCursorControl, newValue,
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL);
+            return true;
+        } else if (preference == mRecentClearAllButton) {
+            handleActionListChange(mRecentClearAllButton, newValue,
+                    Settings.System.CLEAR_RECENTS_BUTTON);
             return true;
         } else if (preference == mNavigationRecentsLongPressAction) {
             // RecentsLongPressAction is handled differently because it intentionally uses Settings.Secure over

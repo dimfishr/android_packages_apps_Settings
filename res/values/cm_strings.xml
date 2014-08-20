@@ -1259,6 +1259,15 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="navigation_bar_size_42_dp">42 dp</string>
     <string name="navigation_bar_size_0_dp">0 dp (off)</string>
 
+    <!--  Recents clear all -->
+    <string name="recents_panel_category">Recents panel</string>
+    <string name="recent_clear_all_button_title">Clear all button position</string>
+    <string name="recent_clear_all_button_disabled">Hidden</string>
+    <string name="recent_clear_all_button_top_left">Top left</string>
+    <string name="recent_clear_all_button_top_right">Top right</string>
+    <string name="recent_clear_all_button_bottom_left">Bottom left</string>
+    <string name="recent_clear_all_button_bottom_right">Bottom right</string>
+
     <!-- Data Usage -->
     <!-- Subtitle of dialog for editing data usage cycle reset date. [CHAR LIMIT=32] -->
     <string name="data_usage_cycle_editor_subtitle_cm">Date of each cycle:</string>

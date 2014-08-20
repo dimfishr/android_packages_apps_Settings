@@ -886,6 +886,23 @@
         <item>0</item>
     </string-array>
 
+    <!-- Clear recents button -->
+    <string-array name="recent_clear_all_button_entries" translatable="false">
+        <item>@string/recent_clear_all_button_disabled</item>
+        <item>@string/recent_clear_all_button_top_left</item>
+        <item>@string/recent_clear_all_button_top_right</item>
+        <item>@string/recent_clear_all_button_bottom_left</item>
+        <item>@string/recent_clear_all_button_bottom_right</item>
+    </string-array>
+
+    <string-array name="recent_clear_all_button_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
     <string-array name="qs_quick_access_size_entries">
         <item>Automatic</item>
         <item>Automatic (narrow)</item>
