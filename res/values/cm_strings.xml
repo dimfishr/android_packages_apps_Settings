@@ -1357,6 +1357,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="ad_pocket_mode_notifications">Notifications only</string>
     <string name="ad_pocket_mode_always">Always</string>
 
+    <!-- Lockscreen battery ring -->
+    <string name="battery_around_lockscreen_ring">Battery around unlock ring</string>
+
     <!-- Data Usage -->
     <!-- Subtitle of dialog for editing data usage cycle reset date. [CHAR LIMIT=32] -->
     <string name="data_usage_cycle_editor_subtitle_cm">Date of each cycle:</string>

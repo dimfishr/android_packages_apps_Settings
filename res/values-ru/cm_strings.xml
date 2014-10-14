@@ -180,6 +180,9 @@
     <string name="ad_pocket_mode_notifications">Только уведомления</string>
     <string name="ad_pocket_mode_always">Всегда</string>
 
+    <!-- Lockscreen battery ring -->
+    <string name="battery_around_lockscreen_ring">Индикатор батареи вокруг кольца разблокировки</string>
+
   <string name="wifi_setting_countrycode_title">Код региона Wi-Fi</string>
   <string name="wifi_setting_countrycode_summary">Укажите код региона Wi-Fi</string>
   <string name="wifi_setting_countrycode_error">При настройке кода региона Wi-Fi возникла неполадка.</string>
